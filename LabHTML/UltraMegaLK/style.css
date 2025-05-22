@@ -1,0 +1,131 @@
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f1e9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.accent {
+  color: #e74c3c;
+}
+
+.header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #e74c3c;
+}
+
+.main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem auto;
+  display: block;
+  max-height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1 1 300px;
+  transition: transform 0.3s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-link {
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link h3 {
+  margin: 1rem 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.project-link p {
+  color: #666;
+  margin: 0;
+}
+
+.project-link img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  background: #f5f5f5;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover .project-link h3 {
+  color: #e74c3c;
+}
+
+.footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

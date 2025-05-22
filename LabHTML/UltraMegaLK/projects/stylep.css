@@ -1,0 +1,146 @@
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f1e9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.accent {
+  color: #e74c3c;
+}
+
+.header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #e74c3c;
+}
+
+.main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+
+.project-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.project-page article {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-page h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.project-page   img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem auto;
+  display: block;
+  max-height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-details h3 {
+  color: #e74c3c;
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.project-details ul {
+  padding-left: 1.5rem;
+  color: #555;
+}
+
+.project-details p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.bck {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.7rem 1.5rem;
+  background: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.bck:hover {
+  background: #e74c3c;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .project-page {
+    padding: 0;
+  }
+
+  .project-page article {
+    padding: 1.5rem;
+  }
+
+  .project-page h2 {
+    font-size: 1.5rem;
+  }
+}
